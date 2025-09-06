@@ -1,0 +1,29 @@
+Partslist
+---------
+
+Components:
+
+D1 - ATTINY2313A-SU or ATTINY4313 (SOP-20)
+R1 - 10k 0805 chip resistor
+R2 - 2k 0805 chip resistor
+R3 - 2k 0805 chip resistor
+R4 - 2k 0805 chip resistor
+R5 - 10k 0805 chip resistor
+R6 - 1k 0805 chip resistor
+C1 - 100nF 0805 ceramic capacitor
+C2 - 10-47uF 1206 ceramic capacitor
+C3 - 22pF 0805 ceramic capacitor
+C4 - 22pF 0805 ceramic capacitor
+ZQ1 - Crystal oscillator 20.000 MHz
+
+Connectors:
+
+X2 - 6-pin female PS/2 connector for keyboards
+X3 - 2x7 male pin header
+X1 - 2x3 pin female connector or 2x3 male pin header (for easy connection to the programmer)
+X4 - 2x3 pin female connector
+
+Plugs:
+
+DIN-13 male connector
+

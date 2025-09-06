@@ -1,0 +1,28 @@
+FUSES для ATTiny2313/4313 
+в контроллере PS/2 клавиатуры для MSX:
+---------------------------------------
+ Name     ! Default  V  !   SET ! MODE
+---------------------------------------
+--- Fuse low byte = 0xEF
+CKSEL0    !    on   on  !  off  !\
+CKSEL1    !    on   off !  off  ! \ - Кварц.ген.20 Мгц
+CKSEL2    !   off   on  !  off  ! /
+CKSEL3    !    on   on  !  off  !/
+SUT0      !    on   on  !   on  !
+SUT1      !   off   off !  off  !
+CKOUT     !   off   off !  off  !
+CKDIV8    !    on   on  !  off  ! Делитель 1:8 выключен
+--- Fuse high byte = 0xD9
+RSTDISBL  !   off   off !  off  !
+BODLEVEL0 !   off   off !  on   !\
+BODLEVEL1 !   off   off !  on   ! - 4.3 Вольт
+BODLEVEL2 !   off   off !  off  !/
+WDTON     !   off   off !  off  !
+SPIEN     !    on   on  !   on  ! Последоват.прогр.разрешено
+EESAVE    !   off   off !  off  !
+DWEN      !   off   off !  off  !
+--- Fuse extended byte = 0xFF
+SELFPRGEN !   off   off !  off  !
+----------------------------------------
+микросхемы с индексом V имеют по умолчанию другое
+значение FUSES для выбора частоты, не 8, а 4 Мгц.

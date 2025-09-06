@@ -1,0 +1,1 @@
+avrdude -p ATTINY2313 -c usbasp-clone -U kbd2AX500.hex

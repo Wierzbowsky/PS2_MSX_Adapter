@@ -1,0 +1,28 @@
+FUSES for ATTiny2313/4313 
+in the PS/2 keyboard adapter for MSX computers:
+---------------------------------------
+ Name     ! Default  V  !   SET ! MODE
+---------------------------------------
+--- Fuse low byte = 0xEF
+CKSEL0    !    on   on  !  off  !\
+CKSEL1    !    on   off !  off  ! \ - 20 MHz oscillator
+CKSEL2    !   off   on  !  off  ! /
+CKSEL3    !    on   on  !  off  !/
+SUT0      !    on   on  !   on  !
+SUT1      !   off   off !  off  !
+CKOUT     !   off   off !  off  !
+CKDIV8    !    on   on  !  off  ! 1:8 divider is off
+--- Fuse high byte = 0xD9
+RSTDISBL  !   off   off !  off  !
+BODLEVEL0 !   off   off !  on   !\
+BODLEVEL1 !   off   off !  on   ! - 4.3 Volt
+BODLEVEL2 !   off   off !  off  !/
+WDTON     !   off   off !  off  !
+SPIEN     !    on   on  !   on  ! Sequential programming is allowed
+EESAVE    !   off   off !  off  !
+DWEN      !   off   off !  off  !
+--- Fuse extended byte = 0xFF
+SELFPRGEN !   off   off !  off  !
+----------------------------------------
+microchips with index V have different FUSE values
+for speed selection: it's not 8 Mhz, but 4 MHz.
