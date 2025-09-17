@@ -1,0 +1,14 @@
+PS/S Keyboard Adapter for MSX2 Computers
+----------------------------------------
+
+This basic case was created by Wierzbowsky. The case was created specifically for
+the cable that has DIN-13 on one end and Dupont 2x7 connectors on the other end.
+Dupont connectors sit too high on the 2x7 pin header, so the case has a higher
+compartment to host the cable and prevent it from bending too much.
+
+Use black laptop screws 2x8mm to join the upper and lower parts of the case. Do
+not overtighten these screws, otherwise the connection will be bad. It's also
+possible to use other screws, for example 2.5x8mm for wood/plastic for the case.
+
+The case has a hole for reprogramming the adapter and also another hole for an
+optional LED board that can be made from a piece of a breadboard.
